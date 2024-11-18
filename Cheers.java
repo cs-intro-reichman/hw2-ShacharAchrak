@@ -14,7 +14,7 @@ public class Cheers {
                 
                 
                 } else {
-                                System.out.print(" a ");
+                                System.out.print("a ");
                         }
                         
                         System.out.println(name.charAt(i) + ": " +name.charAt(i) +"!");
