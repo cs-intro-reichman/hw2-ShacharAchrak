@@ -2,5 +2,22 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int n = Integer.parseInt(args[0]);
+        int less = 0;
+		int more = 0;
+		
+		for(int i = 0; i < n; i++){
+		
+		    if(Math.random() <= 0.5){
+				 less ++;
+			} 
+			  else { 
+				 more ++;
+			}
+		}
+		System.out.println("> 0.5 " + more + " times");
+		System.out.println("<= 0.5 " + less + " times");
+		System.out.println("ratio " + (double) more / less);
 	}
 }
+
