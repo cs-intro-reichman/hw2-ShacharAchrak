@@ -3,6 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
                 String name = args[0];
                 int times = Integer.parseInt(args[1]);
+                name = name.toUpperCase();
 
                for (int i = 0; i < name.length(); i++) {
                    System.out.print("Give me ");
