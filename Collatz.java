@@ -1,8 +1,8 @@
 // Demonstrates the Collatz conjecture.
 public class Collatz {
 	public static void main(String args[]) {
-		String mode = args[0];
-	    int seed = Integer.parseInt(args[1]);
+	    int seed = Integer.parseInt(args[0]);
+		String mode = args[1];
 
 	    if (mode.equals("v")) {
 		   for (int i = 1; i <= seed; i ++) {
