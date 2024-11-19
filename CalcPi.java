@@ -10,7 +10,7 @@ public class CalcPi {
             approximated =  approximated + term;
         }
 
-        approximated = approximated* 4;
+        approximated = approximated * 4;
 
 System.out.println("pi according to Java: " + Math.PI);
 System.out.println("pi, approximated: " + approximated);
