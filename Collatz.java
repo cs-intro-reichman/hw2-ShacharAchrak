@@ -13,14 +13,14 @@ public class Collatz {
 				
 				while (current != 1){
 	        	   if(current % 2 == 0){
-                     System.out.print(current / 2 + " ");
-					 current = current / 2;
-		        } else{
-			         System.out.print(current * 3 + 1 + " ");
+					current = current / 2;
+				} else{
 					 current = current * 3 + 1;
-                }
+				}
+				System.out.print(current + " ");
 				step ++;
 			    }
+				
 		   System.out.println("(" + (step + 1) + ")");
            }
 
