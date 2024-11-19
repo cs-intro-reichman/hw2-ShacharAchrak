@@ -1,7 +1,7 @@
 // Computes an approximation of PI.
 public class CalcPi {
 	public static void main(String [] args) { 
-	    // Replace this comment with your code
+	   
 		int terms = Integer.parseInt(args[0]);
 		double approximated = 0;
        
@@ -13,7 +13,7 @@ public class CalcPi {
         approximated = approximated * 4;
 
 System.out.println("pi according to Java: " + Math.PI);
-System.out.println("pi, approximated: " + approximated);
+System.out.println("pi, approximated:     " + approximated);
 
 	}
 }
